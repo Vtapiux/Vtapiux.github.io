@@ -1,0 +1,43 @@
+body {
+    font-family: 'Georgia', 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion {
+    max-width: 400px;
+    padding: 45px;
+    justify-content: center;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #e6e6e6;
+    background-color: #d882c2;
+    padding: 15px 20px;
+    text-decoration: none;
+    width: 100px; /* Ancho del botón */
+   
+}
