@@ -1,0 +1,11 @@
+/* Modo claro */
+html[data-mode="light"] {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Modo oscuro */
+html[data-mode="dark"] {
+    background-color: #333;
+    color: #fff;
+}
