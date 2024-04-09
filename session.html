@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/sessionStyle.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="text">
+            ¡Hola, Nombre Apellido!
+        </div>
+
+        <div class="flex">
+
+
+            <div>
+                <div class="secundary-content">
+                    <div class="text">
+                        Tus créditos
+                    </div>
+                    <div class="text">
+                        0
+                    </div>
+
+                    <div class="text">
+                        Tus experiencia
+                    </div>
+                    <div class="text">
+                        0
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class="img">
+                </div>
+
+                <div class="flex">
+                    <button type="button" class="button" id="changeImageButton">Cambiar Imagen</button>
+
+                    <button type="submit" class="button" id="logout_link">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-share"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.247 0 .484 .045 .702 .127" />
+                            <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5" />
+                            <path d="M16 22l5 -5" />
+                            <path d="M21 21.5v-4.5h-4.5" />
+                        </svg>
+                    </button>
+
+                    <input type="file" id="imageInput" name="Image" accept="image/jpeg" style="display: none;" />
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="text">
+                Update Image
+            </div>
+            
+            <div class="messageBox">
+                <div class="fileUploadWrapper">
+                    <label for="file">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 337 337">
+                            <circle stroke-width="20" stroke="#6c6c6c" fill="none" r="158.5" cy="168.5" cx="168.5">
+                            </circle>
+                            <path stroke-linecap="round" stroke-width="25" stroke="#6c6c6c" d="M167.759 79V259"></path>
+                            <path stroke-linecap="round" stroke-width="25" stroke="#6c6c6c" d="M79 167.138H259"></path>
+                        </svg>
+                        <span class="tooltip">Add an image</span>
+                    </label>
+                    <input type="file" id="file" name="file" />
+                </div>
+                <input required placeholder="ID" type="text" id="messageInput" />
+                <button id="sendButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                        <path fill="none"
+                            d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                        </path>
+                        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="33.67" stroke="#6c6c6c"
+                            d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../JS/sessionScript.js"></script>
+</body>
+
+</html>
