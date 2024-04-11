@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('../imagenes/background.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo del contenedor */
+    padding: 20px;
+}
+
+#flags {
+    margin-bottom: 20px;
+}
+
+#flags img {
+    width: 45px;
+    margin: 0 5px;
+}
+
+#languages button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #48ac4c; /* Color de fondo */
+    border: none; 
+    color: white; /* Color del texto */
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+#languages button:hover {
+    background-color: #85d78a; /* Cambio de color al pasar el ratón */
+    color: black; /* Color del texto */
+}

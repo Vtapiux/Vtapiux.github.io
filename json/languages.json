@@ -1,0 +1,22 @@
+{
+    "en": {
+      "hello_world": "Welcome",
+      "msg_enter": "Thank you for visiting us, a pleasure to have you on our team."
+    },
+    "es": { 
+      "hello_world": "Bienvenido",
+      "msg_enter": "Gracias por visitarnos, un gusto tenerte en nuestro equipo."
+    },
+    "de": {
+      "hello_world": "Willkommen",
+      "msg_enter": "Vielen Dank für Ihren Besuch, es ist eine Freude, Sie in unserem Team zu haben."
+    },
+    "fr": {
+      "hello_world": "Bienvenue",
+      "msg_enter": "Merci de nous rendre visite, c'est un plaisir de vous avoir dans notre équipe."
+    },
+    "it": {
+      "hello_world": "Benvenuto",
+      "msg_enter": "Grazie per la visita, è un piacere averti nel nostro team."
+    }
+  }
